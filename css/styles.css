@@ -12,7 +12,16 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box; /* Hack para Box Model */
+    /* scroll-snap-type: y mandatory;*/
 }
+/** ScrollSnap **/
+/*
+.servicios,
+.navegacion-principal {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+*/
 
 *, *:before, *:after {
     box-sizing: inherit;
